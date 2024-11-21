@@ -1,0 +1,40 @@
+p {
+    color: red;
+}
+
+h1 {
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#estilo-con-id {
+    color: green;
+}
+
+#sin-display-div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+#color-orange {
+    display: inline;
+    color: orange;
+}
+
+#pseudoclase {
+    color: gray
+}
+
+#pseudoclase:hover {
+    color: black;
+}
+
+#color-hex {
+    color: #005609;
+}
+
+#color-rgb {
+    color: rgba(0, 86, 9, 0.333);
+}
