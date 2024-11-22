@@ -1,0 +1,49 @@
+#caja {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(94, 210, 102);
+
+    margin: 20px 24px 29px 53px;
+    padding: 21px 33px 14px 36px;
+    border: solid black 13px;
+    margin-top: 40px;
+    border-right-width: 48px;
+}
+
+.caja-vecina {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(94, 156, 210);
+}
+
+#contenedor {
+    display: flex;
+}
+
+#ej-content-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(94, 94, 210);
+    margin: 20px 24px 29px 53px;
+    padding: 21px 33px 14px 36px;
+    border: solid black 13px;
+    margin-top: 40px;
+    border-right-width: 48px;
+    --webkit-box-sizing: content-box;
+    --moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#ej-border-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(94, 210, 204);
+    margin: 20px 24px 29px 53px;
+    padding: 21px 33px 14px 36px;
+    border: solid black 13px;
+    margin-top: 40px;
+    border-right-width: 48px;
+    --webkit-box-sizing: border-box;
+    --moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

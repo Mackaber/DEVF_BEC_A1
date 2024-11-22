@@ -1,0 +1,27 @@
+#ej-font-family {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ej-font-size {
+    font-size: 24px;
+}
+
+#ej-font-style {
+    font-style: italic;
+}
+
+#ej-font-weight {
+    font-weight: bold;
+}
+
+#ej-color {
+    color: red;
+}
+
+#ej-background-color {
+    background-color: blue;
+}
+
+#ej-text-align {
+    text-align: center;
+}
