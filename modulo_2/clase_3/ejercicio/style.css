@@ -1,0 +1,91 @@
+/* Ejercicio 1 */
+.container p {
+    color: blue;
+}
+.highlight {
+    color: red;
+}
+
+/* Ejercicio 2 */
+.box {
+    color: blue;
+}
+.text {
+    color: red;
+}
+
+/* Ejercicio 3 */
+#content {
+    color: black;
+}
+.note {
+    color: gray;
+}
+#content .note {
+    color: blue;
+}
+
+/* Ejercicio 4 */
+.outer {
+    font-size: 50px;
+}
+.inner {
+    font-size: 5px;
+}
+
+/* Ejercicio 5 */
+p {
+    color: green;
+}
+#special {
+    color: purple;
+}
+.special-p {
+    color: orange;
+}
+
+/* Ejercicio 6 */
+div > p {
+    font-weight: bold;
+}
+.normal {
+    font-weight: normal;
+}
+
+/* Ejercicio 7 */
+#first-item {
+    background-color: yellow;
+}
+.list-item {
+    background-color: lightblue;
+}
+li {
+    background-color: pink;
+}
+
+/* Ejercicio 8 */
+.parent {
+    color: red;
+}
+.child {
+    color: inherit;
+}
+
+/* Ejercicio 9 */
+#important {
+    color: blue !important;
+}
+.override {
+    color: green;
+}
+
+/* Ejercicio 10 */
+h2 {
+    color: brown;
+}
+.title {
+    color: navy;
+}
+.title-override {
+    color: darkgreen !important;
+}

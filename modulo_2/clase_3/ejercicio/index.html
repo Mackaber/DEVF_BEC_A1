@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Especificidad, Herencia y Cascada en CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 80% !!!! -->
+
+    <!-- Ejercicio 1 :) -->
+    <div class="container">
+        <p class="highlight">Ejercicio 1: Texto de ejemplo</p>
+        <!-- Azul -->
+    </div>
+
+    <!-- Ejercicio 2 :( -->
+    <div class="box" style="color: green;">
+        <span class="text">Ejercicio 2: Hola Mundo</span>
+        <!-- Verde -->
+    </div>
+
+    <!-- Ejercicio 3 :( -->
+    <div id="content">
+        <p class="note">Ejercicio 3: Este es un párrafo</p>
+        <!-- Negro -->
+    </div>
+
+    <!-- Ejercicio 4 :) -->
+    <div class="outer">
+        <div class="inner">Ejercicio 4: Texto dentro de inner</div>
+        <!-- 5px -->
+    </div>
+
+    <!-- Ejercicio 5 :)  -->
+    <p id="special" class="special-p">Ejercicio 5: ¿Qué color tendrá este párrafo?</p>
+    <!-- Purpura -->
+
+    <!-- Ejercicio 6 :) -->
+    <div>
+        <p class="normal">Ejercicio 6: Texto normal o bold?</p>
+        <!-- Normal -->
+    </div>
+
+    <!-- Ejercicio 7 :) -->
+    <ul>
+        <li id="first-item" class="list-item">Ejercicio 7: Primer ítem de la lista</li>
+        <!-- Amarillo -->
+        <li class="list-item">Ejercicio 7: Segundo ítem de la lista</li>
+        <!-- Light Blue -->
+    </ul>
+
+    <!-- Ejercicio 8 :) -->
+    <div class="parent">
+        <p class="child">Ejercicio 8: Herencia de color</p>
+        <!-- Rojo -->
+    </div>
+
+    <!-- Ejercicio 9 :) -->
+    <p id="important" class="override">Ejercicio 9: ¿Qué color predomina?</p>
+    <!-- Azul -->
+
+    <!-- Ejercicio 10 :) -->
+    <h2 class="title title-override">Ejercicio 10: Título con múltiples clases</h2>
+    <!-- Verde -->
+
+</body>
+</html>

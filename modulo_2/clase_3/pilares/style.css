@@ -1,0 +1,23 @@
+#padre {
+    color: blue;
+}
+
+.main-heading {
+    color: red;
+}
+
+h1 {
+    color: green;
+}
+
+#first-heading {
+    color: yellow;
+}
+
+#otro-header {
+    color: orange!important;
+}
+
+.otro {
+    color: black!important;
+}
