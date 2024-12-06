@@ -1,0 +1,27 @@
+.flex-container {
+
+    display: flex;
+  
+    justify-content: center; /* Alinear todos los elementos en el centro horizontalmente */
+  
+    align-items: center; /* Alinear todos los elementos en el centro verticalmente */
+  
+    height: 300px;
+  
+    background-color: #f4f4f4;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 20px;
+  
+    margin: 10px; /* Espacio entre los elementos */
+  
+    border-radius: 5px;
+  
+  }

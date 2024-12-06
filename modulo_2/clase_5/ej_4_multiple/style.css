@@ -1,0 +1,31 @@
+.flex-container {
+
+    display: flex;
+  
+    flex-wrap: wrap; /* Permite que los elementos se distribuyan en varias líneas */
+  
+    align-content: flex-start; /* Alinea las líneas al inicio del contenedor */
+  
+    height: 400px;
+  
+    background-color: #f4f4f4;
+  
+    gap: 10px;
+  
+  }
+  
+  .item {
+  
+    background-color: #007BFF;
+  
+    color: white;
+  
+    padding: 20px;
+  
+    width: 100px;
+  
+    text-align: center;
+  
+    border-radius: 5px;
+  
+  }

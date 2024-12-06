@@ -1,0 +1,33 @@
+.flex-container {
+
+    display: flex;
+    /* Convertir el contenedor en flex */
+
+    justify-content: center;
+    /* Alineación horizontal al centro */
+
+    align-items: center;
+    /* Alineación vertical al centro */
+
+    height: 300px;
+    /* Definir una altura para el contenedor */
+
+    background-color: #f4f4f4;
+
+    border: 1px solid #ccc;
+
+}
+
+.item {
+
+    background-color: #007BFF;
+
+    color: white;
+
+    padding: 20px;
+
+    border-radius: 5px;
+
+    text-align: center;
+
+}
